@@ -1,0 +1,146 @@
+- HTML: Hypertext Markup Language
+    - markup langauge which is used to create web pages
+    - HTML is a markup language
+    - standard front-end language for web pages
+
+- Hyperlinks:
+    - clickable links for providing navigation
+    - links are used to navigate between web pages
+        - Internal Link: to pages on your website
+        - External Link: to other websites
+    - <a href="">
+
+- Inline vs Block Elements
+    - Inline element: does not disrupt flow of text (by default)
+        - example: This is <strong>bold</strong> text
+    - Block element: generally changes layout of text (cannot be inside inline element)
+        - example: <p>This is a paragraph</p>  (paragraph element occupies its own line)
+        - <p>
+        - <div>
+        - <h1>
+        - <h2>
+        - <h3>
+        - <h4>
+        - <h5>
+        - <h6>
+        - <ul>
+        - <ol>
+        - <li>
+        - <table>
+        - <tr>
+        - <td>
+        - <th>
+        - <thead>
+        - <tbody>
+        - <tfoot>
+        - <img>
+        - <video>
+        - <audio>
+        - <canvas>
+        - <form>
+        - <input>
+        - <textarea>
+        - <button>
+        - <select>
+        - <option>
+        - <optgroup>
+        - <datalist>
+        - <keygen>
+        - <output>
+        - <progress>
+        - <meter>
+        - <details>
+        - <summary
+
+- CSS: Cascading Style Sheets 
+    - used to style web pages
+    - style sheet that controls the appearance of an HTML document
+    - like JS can be either embdedded into the HTML file or externally linked
+    - example: 
+        - .blue { (.blue is selector)
+            color: blue;
+            text-decoration: overline;  -> declaration (property: value)
+        }
+    - Types of style sheets:
+        - Inline CSS : defined in element tag
+            - <p style="color: blue;">...</p>
+        - External CSS : linked to from the HTML file (css is written in separate file like "styles.css")
+            - <link rel="stylesheet" href="styles.css">
+
+- Version Control:
+    - A system that keeps track of changes to code
+    - Allows you to easily combine (merge) code with other people
+    - Allows you to easily share code with others
+    - Can revert code to previous versions
+    - Git: version control system
+    - Github: web hosting service
+    - Github is a free service that allows you to host your code online
+
+- Intro to Git:
+    - Version control system
+    - Terminology:
+        - Repository: a directory that contains all of your code
+            - Local repository: repository on your computer
+            - Remote repository: repository on a remote server (cloud)
+        - Commit: changes that are made to a repository (saved)
+            - Staged: changes that are ready to be committed
+            - Committed: changes that have been committed
+        - Branch: an independent version of your code
+            - Master: the main branch
+            - Feature: a branch that contains new features
+            - Bugfix: a branch that contains bug fixes
+            - Hotfix: a branch that contains hot fixes
+            - Release: a branch that contains release versions
+            - Feature/Bugfix: a branch that contains new features and bug fixes
+            - Hotfix/Release: a branch that contains hot fixes and release versions
+
+    - Git commands:
+        - git init: initialize a repository
+        - git add: add a file to the staging area
+        - git commit: commit your changes
+        - git status: check the status of your repository
+        - git log: view the history of your repository
+        - git checkout: revert to a previous commit
+        - git branch: create a new branch
+        - git checkout -b: create a new branch and switch to it
+        - git branch -d: delete a branch
+        - git push: push your changes to the remote repository
+        - git pull: pull changes from the remote repository
+        - git clone: clone a repository into your local machine
+        - git remote add: add a remote repository
+        - git remote -v: view remote repositories
+        - git remote rm: remove a remote repository
+
+    - Git workflow:
+        - Initialize a repository:
+            - git init
+        - Add a file to the staging area:
+            - git add <file>
+        - Commit your changes:
+            - git commit -m "message"
+        - Check the status of your repository:
+            - git status
+        - View the history of your repository:
+            - git log
+        - Revert to a previous commit:
+            - git checkout <commit>
+        - Create a new branch:
+            - git branch <name>
+        - Create a new branch and switch to it:
+            - git checkout -b <name>
+        - Delete a branch:
+            - git branch -d <name>
+        - Push your changes to the remote repository:
+            - git push <remote> <branch>
+        - Pull changes from the remote repository:
+            - git pull <remote> <branch>
+        - Clone a repository into your local machine:
+            - git clone <url>
+        - Add a remote repository:
+            - git remote add <name> <url>
+        - View remote repositories: 
+            - git remote -v
+
+- Git hosting:
+    - Git repository hosting sites include GitHub, GitLab, and Bitbucket
+
